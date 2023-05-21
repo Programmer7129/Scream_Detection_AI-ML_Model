@@ -28,11 +28,11 @@ The Scream Detection AI/ML Model is an innovative system developed to enhance th
 - Update the `newresources.csv` file with the appropriate labels.
 
 2. Train the AI/ML model:
-- Run the `train_model.py` script to train the multi-layer perceptron model.
+- Run the script to train the multi-layer perceptron model.
 - The model will be saved as a file for future use.
 
 3. Evaluate the model:
-- Run the `evaluate_model.py` script to assess the model's performance.
+- Run the script to assess the model's performance.
 - The script generates visualizations, including training loss, accuracy, confusion matrix, audio waveform, spectrogram, and precision-recall curve.
 
 4. Integration:
