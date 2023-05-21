@@ -1,0 +1,96 @@
+body, html {
+  background-color: grey; 
+  margin: 0; 
+  padding: 0; 
+  height: 100%; 
+  text-align: center;
+}
+.App{
+  background-color: rgb(103, 103, 103);
+}
+
+.fileLabel {
+  margin-top: 20px;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  width: 150px;
+  height: 40px;
+  background-color: darkgray;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+  margin-right: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.fileLabel input[type="file"] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.fileLabel:hover {
+  background-color: rgb(67, 67, 67);
+}
+
+
+
+.activateButton {
+  padding: 10px 20px;
+  background-color: lightgrey;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.activateButton:hover {
+  background-color: darkgrey;
+}
+
+/* Optional: Add hover and active states */
+.customFileButton:hover {
+  background-color: #777777;
+}
+
+.safe{
+  margin-top: 15px;
+  background-color: green;
+  padding: 20px 40px;
+  border-radius: 10px;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.medium{
+  margin-top: 10px 20px;
+  padding: 10px 20px;
+  background-color: yellow;
+  border-radius: 10px;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.emergency {
+  margin-top: 10px 20px;
+  padding: 10px 20px;
+  background-color: red;
+  border-radius: 10px;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
